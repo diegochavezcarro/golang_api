@@ -4,4 +4,4 @@ Basado en ydhnwb/golang_api
 
 Levantar un MySQL:
 
-docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=golang-api -d mysql:5.7.25

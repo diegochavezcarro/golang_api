@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/ydhnwb/golang_api/entity"
+	"github.com/diegochavezcarro/golang_api/entity"
 	"gorm.io/gorm"
 )
 

@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/dgrijalva/jwt-go"
+	"github.com/diegochavezcarro/golang_api/helper"
+	"github.com/diegochavezcarro/golang_api/service"
 	"github.com/gin-gonic/gin"
-	"github.com/ydhnwb/golang_api/helper"
-	"github.com/ydhnwb/golang_api/service"
 )
 
 //AuthorizeJWT validates the token user given, return 401 if not valid

@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/diegochavezcarro/golang_api/config"
+	"github.com/diegochavezcarro/golang_api/controller"
+	"github.com/diegochavezcarro/golang_api/middleware"
+	"github.com/diegochavezcarro/golang_api/repository"
+	"github.com/diegochavezcarro/golang_api/service"
 	"github.com/gin-gonic/gin"
-	"github.com/ydhnwb/golang_api/config"
-	"github.com/ydhnwb/golang_api/controller"
-	"github.com/ydhnwb/golang_api/middleware"
-	"github.com/ydhnwb/golang_api/repository"
-	"github.com/ydhnwb/golang_api/service"
 	"gorm.io/gorm"
 )
 

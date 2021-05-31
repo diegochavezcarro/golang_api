@@ -23,3 +23,15 @@ select * from books;
 
 select * from books;
 
+Registrar un usuario:
+
+localhost:8080/api/auth/register
+
+
+tiene validaciones, entre ellas, requiere un mail valido:
+
+{
+    "name":"diego",
+    "email":"bla@bla.com",
+    "password":"123"
+}

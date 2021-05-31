@@ -1,6 +1,6 @@
 # golang_api
 
-Basado en ydhnwb/golang_api
+Basado en https://github.com/ydhnwb/golang_api
 
 Levantar un MySQL:
 
